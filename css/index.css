@@ -147,6 +147,23 @@ img {
   width: 90%;
   height: auto;
 }
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.person {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.person .imag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 h2 {
   color: #66FCF1;
   font-size: 2.5rem;
@@ -164,18 +181,18 @@ h2 {
   display: flex;
   justify-content: center;
 }
-@media (max-width:500px) {
+@media (max-width:800px) {
   .text-container {
-    width: 90%;
-    margin: 2% 5% 2% 5%;
+    width: 60vw;
+    margin: 2% 20% 2% 20%;
     font-size: 2.3rem;
     line-height: 3rem;
   }
 }
-@media (max-width:800px) {
+@media (max-width:500px) {
   .text-container {
-    width: 60%;
-    margin: 2% 20% 2% 20%;
+    width: 90%;
+    margin: 2% 5% 2% 5%;
     font-size: 2.3rem;
     line-height: 3rem;
   }
